@@ -1,3 +1,16 @@
+body {
+    background-color: #242525;
+    font-family: sansation, sans-serif;
+}
+
 h1 {
     font-size: 100px;
+    font-family: Chonburi, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #BA9E5D;
+}
+
+h3 {
+    text-align: center;
+    color: #F6F6F6;
 }
