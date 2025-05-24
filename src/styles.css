@@ -1,11 +1,9 @@
 body {
-    background-color: #242525;
+    background-color: #2A2A2A;
     font-family: sansation, sans-serif;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1400px;
+    color: #2A2A2A;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .grid {
@@ -16,9 +14,18 @@ body {
     margin-right: 64px;
 }
 
+.img-responsive {
+    max-width: 100%;
+}
+
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+}
+
 .section {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 100px 0;
 }
 
 header {
@@ -52,6 +59,45 @@ header.image {
     opacity: 0.8;
 }
 
+main {
+    background-color: white;
+    font-family: urbanist, sans-serif;
+    padding: 50px;
+}
+
+main h2 {
+    font-weight: 700;
+    color: #F5BD2D;
+    font-family: Chonburi, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: px;
+    line-height: 1.5;
+    margin: 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 45px 0 45px 0;
+}
+
+main a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #2A2A2A;
+    padding: 16px 32px;
+    margin-top: 32px;
+    display: inline-block;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background:#F5BD2D;
+}
+
+main p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2A2A2A;
+}
 
 footer {
     font-family: urbanist, sans-serif;
@@ -111,4 +157,13 @@ footer a {
         header h2 {
             font-size: 20px;
         }
+
+        .grid {
+            grid-template-columns: 1fr;
+            grid-gap: 32px;
+          }
+        
+          section {
+            padding: 30px;
+          }
     }
