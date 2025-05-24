@@ -22,12 +22,33 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
 }
 
+.text-center {
+    text-align: center;
+    font-size: 24px;
+}
+
+.card {
+    background: white;
+    margin: 30px 0;
+  }
+  
+.card-body {
+    padding: 30px;
+  }
+  
+.card-footer {
+    padding: 0 30px 30px;
+  }
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url("../images/Carole\ King\ Header\ Two.jpg");
@@ -74,7 +95,7 @@ main h2 {
     margin: 0;
     letter-spacing: 5px;
     text-transform: uppercase;
-    padding: 45px 0 45px 0;
+    padding: 40px 0 40px 0;
 }
 
 main a {
