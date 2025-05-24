@@ -3,11 +3,28 @@ body {
     font-family: sansation, sans-serif;
 }
 
-h1 {
-    font-size: 100px;
-    font-family: Chonburi, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.container {
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/Carole\ King\ Header.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     text-align: center;
-    color: #BA9E5D;
+    padding: 200px 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1;
+    margin: 30px 0;
+    font-family: Chonburi, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F5BD2D;
 }
 
 h2 {
@@ -19,3 +36,21 @@ footer {
     color: #F6F6F6;
     text-align: center;
 }
+
+header.image {
+    opacity: 0.8;
+}
+
+    @media (max-width: 800px) {
+        header {
+            padding: 60px 0;
+        }
+
+        header h1 {
+            font-size: 48px;
+        }
+        
+        header h2 {
+            font-size: 20px;
+        }
+    }
