@@ -26,11 +26,6 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 0;
-}
 
 .text-center {
     text-align: center;
