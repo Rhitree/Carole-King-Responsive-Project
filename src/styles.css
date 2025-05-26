@@ -10,8 +10,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
     grid-gap: 64px;
-    margin-left: 64px;
-    margin-right: 64px;
 }
 
 .img-responsive {
