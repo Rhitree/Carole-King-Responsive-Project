@@ -71,9 +71,9 @@ body {
     width: 100%;
   }
 
-  .video-text {
-    color: #F5BD2D;
+  h2 {
     text-align: center;
+    color: #F5BD2D;
     font-family: sansation, sans-serif;
   }
 
@@ -154,10 +154,15 @@ h4 {
   color:#2A2A2A;
 }
 
+table {
+  padding: 90px;
+}
+
 iframe {
   width: 450px;
   height: 300px;
   padding-left: 32px;
+  padding-bottom: 100px;
 }
 
 footer {
