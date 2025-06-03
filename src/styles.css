@@ -154,8 +154,25 @@ h4 {
   color:#2A2A2A;
 }
 
-table {
-  padding: 90px;
+.table-container {
+  overflow-x: auto;
+}
+
+.table-section {
+  display: block;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background: #F5BD2D;
 }
 
 iframe {
@@ -261,5 +278,4 @@ footer a {
         .section {
           padding: 90px;
           }
-
     }
