@@ -147,6 +147,11 @@ main p {
     color: #2A2A2A;
 }
 
+iframe {
+  width: 400px;
+  height: 400px;
+}
+
 footer {
     font-family: urbanist, sans-serif;
     color: white;
@@ -193,7 +198,12 @@ footer a {
     opacity: 0.7;
 }
 
-    @media (max-width: 800px) {
+    @media (max-width: 960px) {
+
+      body {
+        padding: 100px;
+      }
+
         header {
             padding-bottom: 300px;
         }
@@ -216,12 +226,8 @@ footer a {
                 grid-gap: 32px;
         }
         
-          .video-grid-3-columns {
-            grid-template-columns: 1fr;
-            grid-gap: 32px;
-          }
-
-          section {
-            padding: 30px;
-          }
+        .video-grid-3-columns {
+          grid-template-columns: 1fr;
+          grid-gap: 32px;
+        }
     }
